@@ -48,6 +48,6 @@ steps:
 - task: AzureWebApp@1
   inputs:
     azureSubscription: 'Azure Connection'
-    appType: 'webApp'
+    appType: 'webAppLinux'
     appName: 'exercise-13-hikorkia'
     package: '$(System.ArtifactsDirectory)/drop/js-e2e-express-server.zip'
